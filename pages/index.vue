@@ -10,7 +10,7 @@
                 <h1 class="about text-3xl mb-10">I am a Full-Stack Developer and I am discovering new
                     technologies and frameworks for myself</h1>
                 <div class="btns flex justify-start gap-[80px]">
-                    <button class="Btn1">HIRE ME!</button>
+                    <a href="https://www.instagram.com/azizkhon_muzaffarov/"><button class="Btn1">HIRE ME!</button></a>
                     <button class="Btn2">PROJECTS</button>
                 </div>
             </div>
