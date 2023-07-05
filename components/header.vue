@@ -5,7 +5,8 @@ import { header } from "../constants/header"
 
 <template>
   <div class="bg-[#252525] w-full py-5">
-    <div class="big container mx-auto">
+    <div class="big container mx-auto" data-aos="fade-in" 
+data-aos-duration="1000">
       <nuxt-link to="/" class="text-white text-6xl font-bold"
         style="font-family: 'El Messiri', sans-serif;">عزيز</nuxt-link>
       <ul class="flex lg:gap-[100px] md:gap-[50px] gap-[30px]" style="font-family: 'Oswald', sans-serif;">

@@ -1,7 +1,8 @@
 <template>
-    <div class="bg-[#252525] w-full py-5 foot p-4 fixed bottom-0">
+    <div class="bg-[#252525] w-full py-5 foot p-4 fixed bottom-0"  data-aos="fade-in" 
+data-aos-duration="1000">
         <div class="flex justify-between items-center container mx-auto mb-4">
-            <ul class="flex lg:gap-[100px] md:gap-[50px] gap-[30px]" style="font-family: 'Oswald', sans-serif;">
+            <ul class="flex justify-between lg:gap-[100px] md:gap-[50px] gap-[30px]" style="font-family: 'Oswald', sans-serif;">
                 <nuxt-link v-for="(el, ind) in header" class="text-white" :to="el.to"><button class="head--">{{ el.title
                 }}</button></nuxt-link>
             </ul>
@@ -15,6 +16,34 @@ import { header } from "../constants/header"
 </script>
 
 <style lang="scss" scoped>
+
+.head-- {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 500;
+}
+
+.head--::before {
+  margin-left: auto;
+}
+
+.head--::after,
+.head--::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  transition: 0.5s;
+}
+
+.head--:hover::after,
+.head--:hover::before {
+  width: 100%;
+}
 
 .btn {
   display: inline-block;
