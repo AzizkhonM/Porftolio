@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#252525] w-full py-5 foot p-4">
+    <div class="bg-[#252525] w-full py-5 foot p-4 fixed bottom-0">
         <div class="flex justify-between items-center container mx-auto mb-4">
             <ul class="flex lg:gap-[100px] md:gap-[50px] gap-[30px]" style="font-family: 'Oswald', sans-serif;">
                 <nuxt-link v-for="(el, ind) in header" class="text-white" :to="el.to"><button class="head--">{{ el.title

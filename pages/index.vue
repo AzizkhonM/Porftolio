@@ -140,7 +140,8 @@ import { langs } from '../constants/langs';
 
 @media screen and (max-width: 400px) {
     .btns {
-        gap:40px
+        gap: 40px;
+        justify-content: space-between;
     }
 }
 
