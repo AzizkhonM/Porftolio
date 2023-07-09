@@ -1,0 +1,44 @@
+<script setup lang="ts">
+import { ref, reactive, onMounted } from "vue"
+import { useBlogStore } from "~/stores/blogStore"
+import { useBlog } from "../../service/blog";
+
+const salom = "<h1>Salom Dunyo</h1>"
+
+const blogStore = useBlogStore()
+
+const listUpdate = () => {
+  useBlog.list().then((res) => {
+    console.log(res);
+    blogStore.set_list(res?.data)
+  })
+}
+
+onMounted(() => {
+  listUpdate()
+})
+
+</script>
+
+
+<template>
+  <div class="container mx-auto">
+    <h1 class="text-[50px] font-medium text-center mb-10">Blog</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 main">
+      <nuxt-link :to="'/blog/' + el._id" v-for="el in blogStore.array" class="border rounded-lg py-4 px-3">
+        <div class="w-[100%] md:h-[50vh] h-[25vh] flex justify-center items-center"><img class="h-[90%] md:h-auto md:w-[90%]" :src="el.image" alt=""></div>
+        <div class="text-[35px] mb-6">{{ el.title }}</div>
+        <div class="text-[15px] text-right">{{ el.short }}</div>
+      </nuxt-link>
+    </div>
+  </div>
+</template>
+
+
+<style lang="scss" scoped>
+@media screen and (max-width: 600px) {
+  .main{
+    margin-bottom: 150px;
+  }
+  }
+</style>

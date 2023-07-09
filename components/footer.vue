@@ -84,4 +84,14 @@ import { header } from "../constants/header"
   }
 }
 
+@media screen and (max-width: 400px) {
+  .head-- {
+    font-size: 20px;
+  }
+
+  .foot{
+    padding: 8px 20px
+  }
+}
+
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto grid grid-cols-1 xl:grid-cols-2 justify-center items-center gap-10">
-        <div class="grid grid-cols-1" style="font-family: 'Oswald', sans-serif">
+        <div class="grid grid-cols-1">
             <div>
                 <div class="name md:text-9xl text-8xl font-medium mb-10" data-aos="fade-in" 
 data-aos-duration="500" data-aos-delay="500">
@@ -12,13 +12,13 @@ data-aos-duration="500" data-aos-delay="500">
 data-aos-duration="500" data-aos-delay="750">I am a Full-Stack Developer and I am discovering new
                     technologies and frameworks for myself</h1>
                 <div  data-aos="fade-in" 
-data-aos-duration="500" data-aos-delay="1000" class="btns flex justify-start gap-[80px]">
+data-aos-duration="500" data-aos-delay="1000" class="btns flex justify-start gap-[80px] mb-[100px]">
                     <a href="https://www.instagram.com/azizkhon_muzaffarov/"><button class="Btn1">HIRE ME!</button></a>
                     <button class="Btn2">PROJECTS</button>
                 </div>
             </div>
         </div>
-        <div class="h-[85vh] bg-[#DED1C1] grid iicon"  data-aos="fade-in" 
+        <div class="h-[85vh] bg-[#f9f6f3] rounded-tr-[100px] rounded-br-[100px] grid iicon"  data-aos="fade-in" 
 data-aos-duration="500" data-aos-delay="1500">
             <div class="grid grid-cols-2">
                 <div v-for="el in langs"

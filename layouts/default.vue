@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div  style="font-family: 'Oswald', sans-serif">
         <Header />
         <main class="p-4">
             <slot />
