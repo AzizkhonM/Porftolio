@@ -3,8 +3,6 @@ import { ref, reactive, onMounted } from "vue"
 import { useBlogStore } from "~/stores/blogStore"
 import { useBlog } from "../../service/blog";
 
-const salom = "<h1>Salom Dunyo</h1>"
-
 const blogStore = useBlogStore()
 
 const listUpdate = () => {
@@ -23,8 +21,10 @@ onMounted(() => {
 
 <template>
   <div class="container mx-auto">
-    <h1 class="text-[50px] font-medium text-center mb-10">Blog</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 main">
+    <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" 
+data-aos-duration="500" data-aos-delay="500">Blog</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 main" data-aos="fade-in" 
+data-aos-duration="500" data-aos-delay="1250">
       <nuxt-link :to="'/blog/' + el._id" v-for="el in blogStore.array" class="border rounded-lg py-4 px-3">
         <div class="w-[100%] md:h-[50vh] h-[25vh] flex justify-center items-center"><img class="h-[90%] md:h-auto md:w-[90%]" :src="el.image" alt=""></div>
         <div class="text-[35px] mb-6">{{ el.title }}</div>

@@ -5,6 +5,7 @@ export const useBlogStore = defineStore({
     state: () => {
         return {
             array: null,
+            one: null,
             loading: true,
             errorMessage: ""
         }
@@ -13,12 +14,20 @@ export const useBlogStore = defineStore({
     actions: {
         set_list(list: never){
             this.array = (list)
+        },
+
+        set_one(one: never){
+            this.one = (one)
         }
     },
 
     getters: {
         get_list: (state) => {
             return () => state.array
+        },
+
+        get_one: (state) => {
+            return () => state.one
         }
     }
 })
