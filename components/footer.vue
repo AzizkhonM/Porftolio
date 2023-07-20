@@ -7,7 +7,7 @@ data-aos-duration="1000">
                 }}</button></nuxt-link>
             </ul>
         </div>
-        <nuxt-link class="btn" style="font-family: Oswald;" to="/contact">Contact</nuxt-link>
+        <nuxt-link class="btn uppercase" style="font-family: Oswald;" to="/contact">Social Media</nuxt-link>
     </div>
 </template>
 
