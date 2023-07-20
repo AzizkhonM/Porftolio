@@ -7,7 +7,7 @@ console.log(data.value);
 <template>
     <div class="container mx-auto">
     <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">Social Media Pages</h1>
-    <div class="card">
+    <div class="card justify-center grid grid-cols-3">
   <a class="social-link1">
     <i class="bx bxl-instagram text-4xl"></i>
   </a>
@@ -33,9 +33,8 @@ console.log(data.value);
 
 <style lang="scss" scoped>
 .card {
-  display: flex;
-  justify-content: center;
-  width: 100%
+  width: 80%;
+  margin: 0 auto;
 }
 
 .card .social-link1,.card .social-link2,.card .social-link3,.card .social-link4, .card .social-link5, .card .social-link6 {
@@ -43,7 +42,7 @@ console.log(data.value);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  width: 80%;
   color: black;
   font-size: 24px;
   text-decoration: none;
