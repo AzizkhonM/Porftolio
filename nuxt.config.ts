@@ -27,7 +27,9 @@ export default defineNuxtConfig({
       meta: [{
         name: "description", content: "Azizkhon Muzaffarov's Portfolio"
       },
-      {
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
         name: "author", content: "Azizkhon"
       }],
       script: [

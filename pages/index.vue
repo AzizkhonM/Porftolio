@@ -1,4 +1,5 @@
 <template>
+
     <div class="container mx-auto grid grid-cols-1 xl:grid-cols-2 justify-center items-center gap-10">
         <div class="grid grid-cols-1">
             <div>
@@ -18,9 +19,9 @@ data-aos-duration="500" data-aos-delay="1000" class="btns flex justify-start gap
                 </div>
             </div>
         </div>
-        <div class="h-[85vh] bg-[#f9f6f3] rounded-tr-[100px] rounded-br-[100px] grid iicon"  data-aos="fade-in" 
+        <div class="h-[85vh] bg-[#f5f5f5] rounded-tr-[100px] rounded-br-[100px] grid iicon"  data-aos="fade-in" 
 data-aos-duration="500" data-aos-delay="1500">
-            <div class="grid grid-cols-2">
+<div class="grid grid-cols-2 z-50">
                 <div v-for="el in langs"
                     class="flex justify-center items-center  hover:opacity-100 opacity-60 duration-300 hover:cursor-pointer">
                     <i :class="el.icon" class="icons-prog text-8xl mx-auto my-auto"></i>
@@ -38,7 +39,7 @@ import { langs } from '../constants/langs';
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .Btn1 {
     width: 130px;
     height: 60px;

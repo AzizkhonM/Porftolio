@@ -25,10 +25,10 @@ onMounted(() => {
 data-aos-duration="500" data-aos-delay="500">Blog</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 main" data-aos="fade-in" 
 data-aos-duration="500" data-aos-delay="1250">
-      <nuxt-link :to="'/blog/' + el._id" v-for="el in blogStore.array" class="border rounded-lg py-4 px-3">
+      <nuxt-link :to="'/blog/' + el._id" v-for="el in blogStore.array" class="border rounded-[50px] pt-4 pb-10 px-5 shadow-md hover:shadow-2xl duration-300 hover:cursor-pointer">
         <div class="w-[100%] md:h-[50vh] h-[25vh] flex justify-center items-center"><img class="image w-[60%] md:h-auto md:w-[90%]" :src="el.image" alt=""></div>
-        <div class="text-[35px] mb-6">{{ el.title }}</div>
-        <div class="text-[15px] text-right">{{ el.short }}</div>
+        <div class="text-[45px] mb-6">{{ el.title }}</div>
+        <div class="text-[20px] text-right">{{ el.short }}</div>
       </nuxt-link>
     </div>
   </div>

@@ -1,15 +1,18 @@
 <template>
     <div  style="font-family: 'Oswald', sans-serif">
         <Header />
-        <main class="p-4">
+        <main>
             <slot />
         </main>
         <Footer />
     </div>
 </template>
 
-<script setup>
 
-</script>
+<style scoped>
 
-<style lang="scss" scoped></style>
+main{
+  padding: 16px;
+}
+
+</style>

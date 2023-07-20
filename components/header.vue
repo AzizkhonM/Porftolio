@@ -13,7 +13,7 @@ data-aos-duration="1000">
         <nuxt-link v-for="(el, ind) in header" class="text-white" :to="el.to"><button class="head--">{{ el.title
         }}</button></nuxt-link>
       </ul>
-      <nuxt-link class="btn" style="font-family: Oswald;" to="/contact">Contact</nuxt-link>
+      <nuxt-link class="btn uppercase" style="font-family: Oswald;" to="/socialmedia">Social media</nuxt-link>
     </div>
   </div>
 </template>

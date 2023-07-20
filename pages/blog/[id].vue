@@ -9,7 +9,7 @@ console.log(data.value.text);
 <template>
     <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">Blog</h1>
     <div data-aos="fade-in" 
-data-aos-duration="500" data-aos-delay="750" v-html="data.text" class="border rounded-lg p-4 mb-[125px] container mx-auto"></div>
+data-aos-duration="500" data-aos-delay="750" v-html="data.text" class="border rounded-lg p-8 mb-[125px] container mx-auto text-[25px]"></div>
 </template>
 
 <style lang="scss" scoped>
