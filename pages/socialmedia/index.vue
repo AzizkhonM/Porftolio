@@ -7,23 +7,23 @@ console.log(data.value);
 <template>
     <div class="container mx-auto">
     <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">Social Media Pages</h1>
-    <div class="card justify-center grid grid-cols-3 mx-auto ">
-  <a class="social-link1" href="https://www.instagram.com/azizkhon_muzaffarov/" data-aos="fade-in" data-aos-delay="600">
+    <div class="card justify-center grid grid-cols-3 mx-auto"  data-aos="fade-in" data-aos-duration="500" data-aos-delay="750">
+  <a class="social-link1" href="https://www.instagram.com/azizkhon_muzaffarov/">
     <i class="bx bxl-instagram text-5xl"></i>
   </a>
-  <a class="social-link2" href="https://twitter.com/m_azizkhon" data-aos="fade-in" data-aos-delay="800">
+  <a class="social-link2" href="https://twitter.com/m_azizkhon">
     <i class="bx bxl-twitter text-5xl"></i>
   </a>
-  <a class="social-link3" href="https://www.facebook.com/profile.php?id=100091728452436" data-aos="fade-in" data-aos-delay="1000">
+  <a class="social-link3" href="https://www.facebook.com/profile.php?id=100091728452436">
     <i class="bx bxl-facebook text-5xl"></i>
   </a>
-  <a class="social-link4" href="https://wa.me/+998930422240" data-aos="fade-in" data-aos-delay="1200">
+  <a class="social-link4" href="https://wa.me/+998930422240">
     <i class="bx bxl-whatsapp text-5xl"></i>
   </a>
-  <a class="social-link5" href="https://github.com/AzizkhonM" data-aos="fade-in" data-aos-delay="1400">
+  <a class="social-link5" href="https://github.com/AzizkhonM">
     <i class="bx bxl-github text-5xl"></i>
   </a>
-  <a class="social-link6" href="https://www.linkedin.com/in/azizkhon-muzaffarov-23934b248/" data-aos="fade-in" data-aos-delay="1600">
+  <a class="social-link6" href="https://www.linkedin.com/in/azizkhon-muzaffarov-23934b248/">
     <i class="bx bxl-linkedin text-5xl"></i>
   </a>
 </div>             
