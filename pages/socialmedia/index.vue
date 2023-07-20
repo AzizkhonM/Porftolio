@@ -7,24 +7,24 @@ console.log(data.value);
 <template>
     <div class="container mx-auto">
     <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">Social Media Pages</h1>
-    <div class="card justify-center grid grid-cols-3">
+    <div class="card justify-center grid grid-cols-3 mx-auto ">
   <a class="social-link1">
-    <i class="bx bxl-instagram text-4xl"></i>
+    <i class="bx bxl-instagram text-5xl"></i>
   </a>
   <a class="social-link2">
-    <i class="bx bxl-twitter text-4xl"></i>
+    <i class="bx bxl-twitter text-5xl"></i>
   </a>
   <a class="social-link3">
-    <i class="bx bxl-facebook text-4xl"></i>
+    <i class="bx bxl-facebook text-5xl"></i>
   </a>
   <a class="social-link4">
-    <i class="bx bxl-whatsapp text-4xl"></i>
+    <i class="bx bxl-whatsapp text-5xl"></i>
   </a>
   <a class="social-link5">
-    <i class="bx bxl-github text-4xl"></i>
+    <i class="bx bxl-github text-5xl"></i>
   </a>
   <a class="social-link6">
-    <i class="bx bxl-linkedin text-4xl"></i>
+    <i class="bx bxl-linkedin text-5xl"></i>
   </a>
 </div>             
   </div>
@@ -34,7 +34,6 @@ console.log(data.value);
 <style lang="scss" scoped>
 .card {
   width: 80%;
-  margin: 0 auto;
 }
 
 .card .social-link1,.card .social-link2,.card .social-link3,.card .social-link4, .card .social-link5, .card .social-link6 {
@@ -51,8 +50,11 @@ console.log(data.value);
   cursor: pointer;
 }
 
-.card svg {
-  transform: scale(1);
+
+.card a{
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .card .social-link1:hover {
