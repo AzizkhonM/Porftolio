@@ -22,7 +22,7 @@ data-aos-duration="500" data-aos-delay="1000" href="doc.pdf" download="azizkhon_
             </div>
         </div>
         <div class="h-[85vh] flex justify-center items-center" data-aos="fade-in" data-aos-duration="500" data-aos-delay="1500">
-                <img src="laptop.svg" class="w-[110%]" alt="">
+                <img src="/laptop.svg" class="w-[110%]" alt="">
         </div>
     </div>
 </template>
