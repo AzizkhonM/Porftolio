@@ -21,7 +21,7 @@ data-aos-duration="500" data-aos-delay="1000" class="btns flex justify-start gap
 data-aos-duration="500" data-aos-delay="1000" href="/doc.pdf" download="azizkhon_muzaffarov_cv" class=" mb-[100px]"><button class="Btn1">DOWNLOAD CV</button></a>
             </div>
         </div>
-        <div class="h-[85vh] flex justify-center items-center" data-aos="fade-in" data-aos-duration="500" data-aos-delay="1500">
+        <div class="h-[85vh] flex justify-center items-center iicon" data-aos="fade-in" data-aos-duration="500" data-aos-delay="1500">
                 <img src="/laptop.svg" class="w-[110%]" alt="">
         </div>
     </div>
