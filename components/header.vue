@@ -8,7 +8,7 @@ import { header } from "../constants/header"
     <div class="big container mx-auto" data-aos="fade-in" 
 data-aos-duration="1000">
       <nuxt-link to="/" class="text-white text-6xl font-bold"
-        style="font-family: 'El Messiri', sans-serif;"><img src="logo.svg" alt=""></nuxt-link>
+        style="font-family: 'El Messiri', sans-serif;"><img src="/logo.svg" alt=""></nuxt-link>
       <ul class="flex lg:gap-[100px] md:gap-[50px] gap-[30px]" style="font-family: 'Oswald', sans-serif;">
         <nuxt-link v-for="(el, ind) in header" class="text-white" :to="el.to"><button class="head--">{{ el.title
         }}</button></nuxt-link>
