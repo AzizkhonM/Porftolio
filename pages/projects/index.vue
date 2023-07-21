@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto">
         <h1 class="text-[50px] font-medium text-center mb-10" data-aos="fade-in" data-aos-duration="500" data-aos-delay="500">Projects</h1>
-<div class="all 2xl:gap-[130px] xl:gap-[100px] lg:gap-[50px]"  data-aos="fade-in" data-aos-duration="500" data-aos-delay="750"><figure class="relative max-w-sm transition-all flex justify-center duration-300 cursor-pointer filter grayscale hover:grayscale-0"  :class="ind == data.length-1 ? 'mb-[170px]' : ''" v-for="(el, ind) in data">
+<div class="all 2xl:gap-[130px] xl:gap-[100px] lg:gap-[50px]"  data-aos="fade-in" data-aos-duration="500" data-aos-delay="750"><figure class="relative max-w-sm transition-all flex justify-center duration-300 cursor-pointer filter grayscale hover:grayscale-0"  :class="ind == data.length-1 ? 'mb-[170px] lg:mb-0' : ''" v-for="(el, ind) in data">
   <a :href="el.link">
     <img class="rounded-lg" :src="el.image" alt="image description">
   </a>
