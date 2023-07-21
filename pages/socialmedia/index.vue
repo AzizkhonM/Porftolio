@@ -1,6 +1,4 @@
 <script setup>
-const { data } = await useFetch("https://back-portfolio-azizkhon.vercel.app/api/socialpages");
-console.log(data.value);
 </script>
 
 
